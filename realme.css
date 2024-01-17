@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.div-head{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 36px;
+}
+.header{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-ul1{
+    display: flex;
+    width: 55%;
+    justify-content: space-evenly;
+    padding-right: 235px;
+
+}
+.header-ul2{
+    display: flex;
+    width: 17%;
+    justify-content: space-evenly;
+    padding-right: 13px;
+}
+.header-ul1,.header-ul2 li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+}
+.header-ul1 a:hover{
+    color: #ffc915;
+}
+.header-ul2 a:hover{
+    color: #ffc915;
+}
+.secand-div-head{
+    height: 4opx;
+    margin-top: 20px;
+}
+.realmelogo{
+    width: 80px;
+}
+.secand-header{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.logolist-ul a:hover
+{
+    color: #ffc915;
+}
+.logolist-ul li{
+    list-style: none;
+}
+.logolist{
+    width: 60%;
+}
+.logolist-ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logolist-ul a{
+    font-size: medium;
+    color:black;
+}
+span a{
+    color: black;
+}
+.logo2{
+    width: 100%;
+    height: 500px;
+}
+.text1-logo{
+    width: 500px;
+    height: 48px;
+}
+.narzo{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 212px;
+    left: 77px;
+    gap: 30px;
+}
+.narzo-text2{
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 12px;
+    vertical-align:top ;
+    font-weight: bold;
+}
+.narzo-text3{
+    font-size: 26px;
+    font-weight: bold;
+}
+.narzo-text5{
+    font-size: 26px;
+    font-weight: bold;
+}
+.narzo-text6{
+    display: flex;
+    width: 270px;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+.welcm{
+    padding: 9px;
+    border: solid black;
+    width: 115px;
+    border-radius: 21px;
+    text-align: center
+}
+.balck{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+.balck:hover{
+    background-color: white;
+    color: black;
+}
+.white{
+    text-decoration: none;
+    color:black;
+
+}
+ .white:hover{
+    background-color: black;
+    color:white;
+}
+.parts-of-carts{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.carstlogo{
+    width: 100px;
+}
+.carts-a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color:black;
+}
+
+
+
+
